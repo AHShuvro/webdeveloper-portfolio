@@ -10,6 +10,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 230px;
 }
 
 .nav-title {
@@ -29,6 +30,7 @@ nav {
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px;
+    border-style: none;
 }
 
 nav>ul {
@@ -45,4 +47,20 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* Header related styles */
+
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    margin: 30px 30px 30px 230px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.banner-img{
+    width: 584px;
+    height: 676px;
 }
